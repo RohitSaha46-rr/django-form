@@ -1,0 +1,33 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %}{% endblock title %}</title>
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style1.css' %}">
+    <script src="{% static 'js/app.js' %}" type="text/javascript"></script> 
+</head>
+<body>
+    <header>
+    <div class="head" id="head">
+        <div class="logo">
+            <i class="fas fa-briefcase-medical" id="brief"></i>
+        </div>
+        <div class="menu">
+            <ul>
+             <li><a href="/">Home</a></li>
+             <li><a href="/about">About Us</a></li>
+             <li><a href="/contact">Contact</a></li>
+             <li><a href="#cylinder">Cylinders</a></li>
+             <li><a href="#food">Food Delivery</a></li>
+            </ul>
+        </div>
+       
+    </div>
+    {% block body %}{% endblock body %}
+    </header>
+    
+</body>
+</html>

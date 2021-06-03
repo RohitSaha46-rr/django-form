@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+}
+header .head{
+    width: 100vw;
+    height: 12vh;
+    top: 0px;
+    left: 0px;
+    transition: .2s;
+    display: flex;
+    background-color: rgb(141, 67, 211);
+   
+}
+
+header .head .logo{
+    width: 30vw;
+    height: 12vh;
+   
+}
+header .head .logo #brief{
+    font-size: 3rem;
+    margin-left: 70px;
+    padding-top: 15px;
+    color: rgb(247, 6, 66);
+    
+}
+header .head .menu{
+    width: 60vw;
+    height: 12vh;
+}
+header .head .menu ul{
+    width: 45vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 290px;
+    list-style: none;
+    padding-top: 25px;
+    
+}
+header .head .menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header .head .menu ul a:hover{
+    
+    border-bottom: 3px solid #03a9f4;
+}
+
+header .content{
+    width: 100vw;
+    height: 70vh;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header .content .head1{
+    font-style: italic;
+}
+.content_about{
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(210, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
